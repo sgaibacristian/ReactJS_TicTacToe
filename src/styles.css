@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: floralwhite;
+  border: 3px solid black;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "BankGothic Md BT";
+  line-height: 65px;
+  height: 65px;
+  padding: 0;
+  text-align: center;
+  width: 65px;
+  display: block;
+}
+.squarewinnerSquare{
+  background: lawngreen;
+  border: 3px solid black;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "BankGothic Md BT";
+  line-height: 65px;
+  height: 65px;
+  padding: 0;
+  text-align: center;
+  width: 65px;
+  display: block;
+}
+.squareloserSquare{
+  background: #660000;
+  border: 3px solid black;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "BankGothic Md BT";
+  line-height: 65px;
+  height: 65px;
+  padding: 0;
+  text-align: center;
+  width: 65px;
+  display: block;
+}
+
+
+.board-row{
+  display: flex;
+  content: '';
+  clear: both;
+  margin-left: 25px;
+  box-shadow: black 4px 4px;
+}
+
+.status {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: "BankGothic Md BT";
+  font-size: 21px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board{
+  margin-top: 15px;
+  margin-left: 20px;
+
+}
+
+.move-index{
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+  font-family: "BankGothic Md BT";
+  font-size: 21px;
+
+}
+
+.game-info{
+}
+
+.button{
+  background: floralwhite;
+  font-family: "BankGothic Md BT";
+  box-shadow: black 3px 3px;
+  display: block;
+}
+
+.ul{
+  display: block;
+}
